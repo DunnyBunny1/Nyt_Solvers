@@ -1,0 +1,27 @@
+{
+  "name": "nyt_solvers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wordle": "ts-node src/wordle_solver.ts",
+    "bee": "ts-node src/spelling_bee_solver.ts",
+    "start": "npm run wordle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DunnyBunny1/Nyt_Solvers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DunnyBunny1/Nyt_Solvers/issues"
+  },
+  "homepage": "https://github.com/DunnyBunny1/Nyt_Solvers#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
